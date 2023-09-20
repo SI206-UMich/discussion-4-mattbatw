@@ -48,7 +48,8 @@ class Rectangle():
 
     # YOUR CODE HERE
     
-
+    def perimeter(self):
+        return 2 * self.width + 2 * self.height if self.verify_input() else "Invalid input"
 
 def main():
     r = Rectangle(10, 10)
